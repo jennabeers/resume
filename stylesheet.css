@@ -6,7 +6,9 @@ a{
     text-decoration: none;
     color: #787878;
 }
-
+a:hover{
+    color: white;
+}
 #header {
     z-index: 1; 
     position: fixed;
@@ -58,7 +60,7 @@ li {
     position: relative;
     float: left;
     width: 10%;
-    height: 500px;
+    height: 550px;
     background-color: #B3BBBD;
 	margin-top: 50px;
 	margin-bottom: 10px;
@@ -68,7 +70,7 @@ li {
     float: right;
     margin-top: 50px;
     width: 88%;
-    height: 500px;
+    height: 550px;
     background-color: #DCF6F7;
 	margin-bottom: 10px;
 }
