@@ -1,0 +1,84 @@
+div {
+    border-radius: 5px;
+    font-family: Tahoma, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #787878;
+}
+
+#header {
+    z-index: 1; 
+    position: fixed;
+    width: 97.5%;
+    margin-top: -15px;
+    height: 50px;
+    background-color: #AFD8DE;
+	margin-bottom: 15px;   
+}
+#name {
+    float: left;
+    font-size: 22px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: Tahoma, sans-serif;
+    color: #787878;
+}
+#email{
+	float:right;
+	margin-right: 10px;
+	padding-top: 5px;
+	font-size: 16px;
+	font-family: Tahoma, sans-serif;
+}
+h2 {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+h3 {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Lucida Bright', Georgia, serif;
+}
+.right p{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Lucida Bright', Georgia, serif;
+}
+li {
+    list-style-type: square;
+    font-size: 14px;
+    font-family: 'Lucida Bright', Georgia, serif;
+}
+.left {
+    position: relative;
+    float: left;
+    width: 10%;
+    height: 500px;
+    background-color: #B3BBBD;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.right {
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    width: 88%;
+    height: 500px;
+    background-color: #DCF6F7;
+	margin-bottom: 10px;
+}
+#footer {
+    position: relative;
+    height: 40px; 
+    background-color: #5EAFB5;
+    clear: both;
+}
+#footer p{
+    position: relative;
+    padding: 15px;
+}
